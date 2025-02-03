@@ -1,5 +1,5 @@
 # workflow name
-name: CI
+name: ci
 
 # trigger events
 on:
