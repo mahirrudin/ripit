@@ -12,3 +12,9 @@ Ripit is cli tools that able to repeat http request from Burpsuite request.
     --request-number (provide number of requests. can be used for race conditions)
 
 ```
+
+# Build
+```
+    go mod tidy
+    go build 
+```
