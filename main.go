@@ -24,7 +24,7 @@ func main() {
     flag.Parse()
 
     if *requestFile == "" {
-        text := `Ripit is CLI tool that is able to repeat HTTP requests from Burpsuite requests.
+        text := `Ripit is CLI tool that able to repeat HTTP requests from Burpsuite requests.
 
 Usage:
     ripit --request-file request.txt
