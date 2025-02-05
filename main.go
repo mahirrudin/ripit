@@ -8,7 +8,7 @@ import (
     "crypto/tls"
     "flag"
     "fmt"
-    "io"
+    "io/ioutil"
     "net/http"
     "os"
     "strings"
@@ -168,7 +168,7 @@ func httpRequest(targetUrl string, method string, data []byte, headers map[strin
         reader = response.Body
     }
 
-    body, err := io.ReadAll(reader)
+    body, err := ioutil.ReadAll(reader)
     if err != nil {
         panic(err)
     }
